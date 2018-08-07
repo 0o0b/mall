@@ -1,15 +1,12 @@
 package com.z.mall.config.mybatis;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
-
 /**
  * mybatis 配置
  * 
  * @date 2018年8月7日
  */
-@Configuration
-@ConfigurationProperties("mybatis")
+// @Configuration
+// @ConfigurationProperties("mybatis")
 public class MyBatisProperties {
 
 	/**

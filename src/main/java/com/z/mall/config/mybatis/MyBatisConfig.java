@@ -12,11 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.TransactionManagementConfigurer;
 
 import com.github.pagehelper.PageInterceptor;
@@ -28,8 +26,8 @@ import com.z.util.ReflectUtil;
  * 
  * @date 2018年8月7日
  */
-@Configuration
-@EnableTransactionManagement
+// @Configuration
+// @EnableTransactionManagement
 public class MyBatisConfig implements TransactionManagementConfigurer, ApplicationContextAware {
 
 	public static final String SQL_SESSION_FACTORY = "sqlSessionFactory";

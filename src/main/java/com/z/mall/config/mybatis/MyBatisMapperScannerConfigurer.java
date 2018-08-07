@@ -2,9 +2,7 @@ package com.z.mall.config.mybatis;
 
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import com.z.mall.config.pagehelper.PageHelperProperties;
 
@@ -13,8 +11,8 @@ import com.z.mall.config.pagehelper.PageHelperProperties;
  * 
  * @date 2018年8月7日
  */
-//@Configuration
-//@AutoConfigureAfter(MyBatisConfig.class) // 由于MapperScannerConfigurer执行的比较早，所以必须有该注解
+// @Configuration
+// @AutoConfigureAfter(MyBatisConfig.class) // 由于MapperScannerConfigurer执行的比较早，所以必须有该注解
 public class MyBatisMapperScannerConfigurer {
 
 	@Autowired
