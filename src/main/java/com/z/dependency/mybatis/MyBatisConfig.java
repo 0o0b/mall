@@ -1,4 +1,4 @@
-package com.z.mall.config.mybatis;
+package com.z.dependency.mybatis;
 
 import javax.sql.DataSource;
 
@@ -18,7 +18,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.TransactionManagementConfigurer;
 
 import com.github.pagehelper.PageInterceptor;
-import com.z.mall.config.pagehelper.PageHelperProperties;
+import com.z.dependency.pagehelper.PageHelperProperties;
 import com.z.util.ReflectUtil;
 
 /**

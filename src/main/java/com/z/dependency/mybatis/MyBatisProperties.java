@@ -1,4 +1,4 @@
-package com.z.mall.config.mybatis;
+package com.z.dependency.mybatis;
 
 /**
  * mybatis 配置

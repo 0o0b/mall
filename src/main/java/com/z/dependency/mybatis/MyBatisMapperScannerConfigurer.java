@@ -1,10 +1,10 @@
-package com.z.mall.config.mybatis;
+package com.z.dependency.mybatis;
 
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 
-import com.z.mall.config.pagehelper.PageHelperProperties;
+import com.z.dependency.pagehelper.PageHelperProperties;
 
 /**
  * MapperScannerConfigurer 配置

@@ -21,10 +21,10 @@ spring:
       testOnBorrow: false
 mybatis:
   type-aliases-package: com.z.mall.**.entity
-  mapper-locations: classpath:com/z/mall/**/*Mapper.xml
+  mapper-locations: classpath:com/z/mall/**/mapper/*Mapper.xml
 pagehelper:
-  helperDialect: mysql
+  helper-dialect: mysql
   reasonable: true
-  supportMethodsArguments: true
-  offsetAsPageNum: true
-  rowBoundsWithCount: true
+  support-methods-arguments: true
+  offset-as-page-num: true
+  row-bounds-with-count: true

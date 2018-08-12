@@ -1,7 +1,4 @@
-package com.z.mall.config.pagehelper;
-
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+package com.z.dependency.pagehelper;
 
 /**
  * pagehelper 配置
@@ -9,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
  * @date 2018年8月7日
  * @see <a href="https://pagehelper.github.io/docs/howtouse/">https://pagehelper.github.io/docs/howtouse/</a>
  */
-@Configuration
-@ConfigurationProperties("pagehelper")
+// @Configuration
+// @ConfigurationProperties("pagehelper")
 public class PageHelperProperties {
 
 	/**
